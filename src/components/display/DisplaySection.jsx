@@ -6,7 +6,7 @@ import CompanyNameInAnimation from "../../assets/images-and-logos/academy-displa
 
 const DisplaySection = () => {
   return (
-    <Box bgImage={BackgroundImageOfDisplay} h={["60vh", "60vh", "60vh", "85vh"]}>
+    <Box bgImage={BackgroundImageOfDisplay} h={["60vh", "60vh", "60vh", "80vh"]}>
       <VStack
         justifyContent={"center"}
         alignItems={"center"}
