@@ -20,7 +20,12 @@ const Navbar = () => {
   const { isOpen, onToggle } = useDisclosure();
 
   return (
-    <Box>
+    <Box
+      position={"fixed"}
+      w={"100%"}
+      backdropFilter={"blur(15px)"}
+      zIndex={1000}
+    >
       <Flex
         minH="60px"
         py={2}
@@ -79,7 +84,8 @@ const Navbar = () => {
             border={"1px solid #fa8922"}
             borderRadius={"50%"}
             bg={"rgba(60,32,140,.2)"}
-            _hover={{ bg: "rgba(60,32,140,.2)" }}
+            _hover={{ bg: "#fa8922", color: "#fff" }}
+            fontWeight={900}
           />
           <Button
             as="a"
@@ -90,6 +96,7 @@ const Navbar = () => {
             href="#"
             px={[2, 4, 8]}
             py={[0, 2, 4]}
+            _hover={{ bg: "#6435e9", color: "whitesmoke" }}
           >
             Sign In
           </Button>

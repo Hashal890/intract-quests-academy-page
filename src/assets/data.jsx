@@ -55,7 +55,7 @@ export const NAV_ITEMS = [
               mt={2}
               bg={"rgb(100, 53, 233)"}
               color={"#fff"}
-              _hover={{ bg: "rgb(100, 53, 233)", color: "#fff" }}
+              _hover={{ bg: "#fff", color: "rgb(100, 53, 233)" }}
             >
               Launch your Quest
             </Button>
