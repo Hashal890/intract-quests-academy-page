@@ -1,7 +1,9 @@
 import { Badge, Box, Button, Text } from "@chakra-ui/react";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { FaDiscord, FaTelegram, FaTwitter } from "react-icons/fa";
 import BasicsOfCryptoImageUrl from "./images-and-logos/basics-of-crypto-image.png";
 import IntroductionToAirdropsImageUrl from "./images-and-logos/introduction-to-airdrops.png";
+import { AiOutlineSpotify } from "react-icons/ai";
 
 export const NAV_ITEMS = [
   {
@@ -194,30 +196,75 @@ export const CRYPTO_CREATORS_AND_PROJECTS_DATA = [
     mainImageUrl:
       "https://static.highongrowth.xyz/enterprise/undefined/c7caa8a1de0d45f4acd7c51d145df808.png",
     youtubeVideoUrl: "https://www.youtube.com/embed/NkDtaXvzt-I",
-    youtubeVideoTitle: "Retirement Planning In Crypto?"
+    youtubeVideoTitle: "Retirement Planning In Crypto?",
   },
   {
     _id: 2,
     mainTitle: "Why are there limited Bitcoin?",
     mainImageUrl:
-    "https://static.highongrowth.xyz/enterprise/undefined/58615645160e4aab89da48d9f62cedf8.png",
+      "https://static.highongrowth.xyz/enterprise/undefined/58615645160e4aab89da48d9f62cedf8.png",
     youtubeVideoUrl: "https://www.youtube.com/embed/-kmxV_JO7eY",
-    youtubeVideoTitle: "Why there can ONLY be 21 million Bitcoin"
+    youtubeVideoTitle: "Why there can ONLY be 21 million Bitcoin",
   },
   {
     _id: 3,
     mainTitle: "How does Uniswap actually work?",
     mainImageUrl:
-    "https://static.highongrowth.xyz/enterprise/undefined/493018d95dd24096a4badafe9390eea7.png",
+      "https://static.highongrowth.xyz/enterprise/undefined/493018d95dd24096a4badafe9390eea7.png",
     youtubeVideoUrl: "https://www.youtube.com/embed/9fyVLvY3P14",
-    youtubeVideoTitle: "Uniswap explained as a magic box #shorts"
+    youtubeVideoTitle: "Uniswap explained as a magic box #shorts",
   },
   {
     _id: 4,
     mainTitle: "How to spot crypto projects to invest in?",
     mainImageUrl:
-    "https://static.highongrowth.xyz/enterprise/undefined/a9e03cd73a494e09864475c36318c03b.png",
+      "https://static.highongrowth.xyz/enterprise/undefined/a9e03cd73a494e09864475c36318c03b.png",
     youtubeVideoUrl: "https://www.youtube.com/embed/kYeFSwvt1sQ",
-    youtubeVideoTitle: "How to Spot an Undervalued Crypto Projects"
+    youtubeVideoTitle: "How to Spot an Undervalued Crypto Projects",
   },
 ];
+
+export const FOOTER_LINKS_DATA = [
+  {
+    _id: 1,
+    mainTitle: "INTRACT",
+    subTitles: ["Explore Quests", "Comunities", "Alpha Hub"],
+  },
+  {
+    _id: 2,
+    mainTitle: "EARN",
+    subTitles: ["Refer & Earn", "Leaderboard", "Achievements"],
+  },
+  {
+    _id: 3,
+    mainTitle: "ABOUT",
+    subTitles: [
+      "Product Roadmap",
+      "Affiliate Program",
+      "Sign up Program",
+      "Growth Community",
+      "Blogs",
+    ],
+  },
+  {
+    _id: 4,
+    mainTitle: "SUPPORT",
+    subTitles: [
+      "Help Center",
+      "Create your quest",
+      "Terms of Service",
+      "Privacy Policy",
+      "Community Guidelines",
+    ],
+  },
+];
+
+export const FOOTER_CONTACT_DETAILS = {
+  mainTitle: "CREATED BY INTRACT",
+  contacts: [
+    <FaTwitter color={"#1DA1F2"} />,
+    <FaDiscord color={"#7289DA"} />,
+    <FaTelegram color={"#0088cc"} />,
+    <AiOutlineSpotify color={"#1DB954"} />,
+  ],
+};

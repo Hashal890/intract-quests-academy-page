@@ -9,6 +9,7 @@ import FirstAirdropSection from "./components/first-airdrop/FirstAirdropSection"
 import CryptoCreatorsProjectsSection from "./components/crypto-creators-and-projects/CryptoCreatorsProjectsSection";
 import BorderBetweenTwoSections from "./components/common/BorderBetweenTwoSections";
 import CryptoDictionarySection from "./components/crypto-dictionary/CryptoDictionarySection";
+import Footer from "./components/navbar-and-footer/Footer";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
         <BorderBetweenTwoSections />
         <CryptoDictionarySection />
         <BorderBetweenTwoSections />
-        
+        <Footer />
       </Box>
     </Box>
   );
