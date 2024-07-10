@@ -7,6 +7,8 @@ import BasicsCryptoSection from "./components/basics-crypto/BasicsCryptoSection"
 import IntroductiontoAirdropsSection from "./components/introduction-to-airdrops/IntroductiontoAirdropsSection";
 import FirstAirdropSection from "./components/first-airdrop/FirstAirdropSection";
 import CryptoCreatorsProjectsSection from "./components/crypto-creators-and-projects/CryptoCreatorsProjectsSection";
+import BorderBetweenTwoSections from "./components/common/BorderBetweenTwoSections";
+import CryptoDictionarySection from "./components/crypto-dictionary/CryptoDictionarySection";
 
 function App() {
   return (
@@ -17,15 +19,10 @@ function App() {
         <BasicsCryptoSection />
         <IntroductiontoAirdropsSection />
         <FirstAirdropSection />
-        <section
-          style={{
-            minHeight: "2px",
-            minWidth: "2px",
-            background: "rgba(255, 255, 255, 0.05)",
-            margin: "56px"
-          }}
-        ></section>
+        <BorderBetweenTwoSections />
         <CryptoCreatorsProjectsSection />
+        <BorderBetweenTwoSections />
+        <CryptoDictionarySection />
       </Box>
     </Box>
   );
