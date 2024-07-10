@@ -5,6 +5,7 @@ import Navbar from "./components/navbar-and-footer/Navbar";
 import DisplaySection from "./components/display/DisplaySection";
 import BasicsCryptoSection from "./components/basics-crypto/BasicsCryptoSection";
 import IntroductiontoAirdropsSection from "./components/introduction-to-airdrops/IntroductiontoAirdropsSection";
+import FirstAirdropSection from "./components/first-airdrop/FirstAirdropSection";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <DisplaySection />
         <BasicsCryptoSection />
         <IntroductiontoAirdropsSection />
+        <FirstAirdropSection />
       </Box>
     </Box>
   );
