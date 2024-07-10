@@ -23,6 +23,8 @@ function App() {
         <CryptoCreatorsProjectsSection />
         <BorderBetweenTwoSections />
         <CryptoDictionarySection />
+        <BorderBetweenTwoSections />
+        
       </Box>
     </Box>
   );
