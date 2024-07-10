@@ -186,3 +186,38 @@ export const CRYPTO_AIRDROPS_SHORT_CARDS_DATA = [
       "https://static.highongrowth.xyz/erc1155-images/65017d014e5f24613adbfd67/83bd377d91ff441aa6f7c46a63c88506.png",
   },
 ];
+
+export const CRYPTO_CREATORS_AND_PROJECTS_DATA = [
+  {
+    _id: 1,
+    mainTitle: "How to plan your retirement with crypto?",
+    mainImageUrl:
+      "https://static.highongrowth.xyz/enterprise/undefined/c7caa8a1de0d45f4acd7c51d145df808.png",
+    youtubeVideoUrl: "https://www.youtube.com/embed/NkDtaXvzt-I",
+    youtubeVideoTitle: "Retirement Planning In Crypto?"
+  },
+  {
+    _id: 2,
+    mainTitle: "Why are there limited Bitcoin?",
+    mainImageUrl:
+    "https://static.highongrowth.xyz/enterprise/undefined/58615645160e4aab89da48d9f62cedf8.png",
+    youtubeVideoUrl: "https://www.youtube.com/embed/-kmxV_JO7eY",
+    youtubeVideoTitle: "Why there can ONLY be 21 million Bitcoin"
+  },
+  {
+    _id: 3,
+    mainTitle: "How does Uniswap actually work?",
+    mainImageUrl:
+    "https://static.highongrowth.xyz/enterprise/undefined/493018d95dd24096a4badafe9390eea7.png",
+    youtubeVideoUrl: "https://www.youtube.com/embed/9fyVLvY3P14",
+    youtubeVideoTitle: "Uniswap explained as a magic box #shorts"
+  },
+  {
+    _id: 4,
+    mainTitle: "How to spot crypto projects to invest in?",
+    mainImageUrl:
+    "https://static.highongrowth.xyz/enterprise/undefined/a9e03cd73a494e09864475c36318c03b.png",
+    youtubeVideoUrl: "https://www.youtube.com/embed/kYeFSwvt1sQ",
+    youtubeVideoTitle: "How to Spot an Undervalued Crypto Projects"
+  },
+];
