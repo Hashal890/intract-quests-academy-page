@@ -9,6 +9,7 @@ This project is a single-page application built using React.js, JavaScript, Chak
 ## Getting Started
 
 **First, install the dependencies:**
+
 ```bash
 npm install
 # or
@@ -20,6 +21,7 @@ bun install
 ```
 
 **Then, run the development server:**
+
 ```bash
 npm run start
 # or
@@ -31,6 +33,7 @@ bun start
 ```
 
 ## Technologies used
+
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -39,6 +42,7 @@ bun start
 - [React icons](https://react-icons.github.io/react-icons/)
 - [Vercel](https://vercel.com/)
 
+<!--
 ## Screenshots
 
 - Display
@@ -68,3 +72,4 @@ bun start
 - Footer
 
     ![footer](./src/assets/)
+-->
